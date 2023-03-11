@@ -1,0 +1,13 @@
+////
+/// @access public
+/// @group common
+////
+
+/// Prefix to be applied to the property. \
+/// Set to false or null to exclude prefix.
+/// @example scss
+///     @use '@dwijbavisi/dynamics/tokens/common' with (
+///         $prefix: 'dynamics'
+///     );
+/// @type string
+$prefix: null !default;
